@@ -1,4 +1,4 @@
-mkdir dir2
+mkdir -p dir2
 mv *.txt dir2/
 git add dir2
-git commit -m "Moved all text files to dir2 and committed"
+git commit -m "Moved all .txt files to dir2 and committed changes"
